@@ -1,0 +1,52 @@
+  body {
+      font-family: Tahoma, Arial, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(0.25turn, #0f172a, #2563eb, #6c21e4, #5712c5);
+    }
+    .card {
+      background: linear-gradient(0.25turn, #1e1b4b, #312e81, #7a2ef3, #6d28d9);
+      width: 90%;
+      max-width: 400px;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    transition: all 0.3s ease ;
+    }
+    .card:hover{ transform: scale(1.05);
+
+    }
+    
+    .card h1 { color: #000000; margin-bottom: 5px; }
+    .card p.job { color:rgb(20, 3, 3); margin-top: 0; }
+    .info { text-align: left; margin-top: 20px; }
+    .info p {
+   background: linear-gradient(30turn, #08c7bd54, #0c0669);
+      padding: 10px 14px;
+      border-radius: 10px;
+      margin: 8px 0;
+    }
+    .info span { font-weight: bold; color: #000000; }
+    .POHTO1 {position: relative; 
+    width: 115px;
+    height: 115px;
+    border-radius:50% ;
+   
+
+    }
+    .POHTO1:hover{transform: scale(1.5);
+ transition: all 0.3s ease ;
+}
+ .name1:hover {transform:scale(1.1) ;
+  transition: all 0.3s ease ; 
+}
+.n1:hover {transform:scale(1.1) ;
+  transition: all 0.3s ease ; 
+}
+.card p.job:hover {transform:scale(1.1) ;
+  transition: all 0.3s ease ; 
+}
